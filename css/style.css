@@ -8,6 +8,7 @@ body{
   height: 100vh;
   width: 100%;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .container{
@@ -27,7 +28,7 @@ body{
 .tag{
   background-color: hsl(47, 88%, 63%);
   font-family: "Figtree";
-  font-weight: 500;
+  font-weight: 800;
   font-style: normal;
   padding: 4px 12px 4px 12px;
   border-radius: 0.2em;
