@@ -78,6 +78,10 @@ p#author{
 .footer p{
   font-weight: 800;
   font-family: "Figtree";
+  line-height: 150%;
+}
+#date p{
+  line-height: 150%;
 }
 
 @media (max-width: 375px){
