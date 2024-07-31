@@ -55,6 +55,7 @@ p{
   font-family: "Figtree";
   font-weight: 500;
   font-style: normal;
+  line-height: 150%;
 }
 p#author{
   border: 0px;
@@ -96,8 +97,8 @@ p#author{
     display: inline-block;
   }
   h1{
-    font-size: 20;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 800;
   }
   .footer{
     margin-top: 24px;
