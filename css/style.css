@@ -33,7 +33,7 @@ body{
 }
 .learning{
   background-color: hsl(47, 88%, 63%);
-  font-weight: 500;
+  font-weight: 800;
   font-style: normal;
   padding: 4px 12px 4px 12px;
   border-radius: 0.2em;
@@ -41,12 +41,13 @@ body{
 }
 p.date{
   margin: 12px 0;
+  font-weight: 500;
   font-size: 14px;
   line-height: 150%;
 }
 h1{
   font-optical-sizing: auto;
-  font-weight: 900;
+  font-weight: 800;
   font-style: normal;
   font-size: 24px;
   margin-top: 12px;
@@ -67,7 +68,7 @@ p.description{
   margin-bottom: 24px;
 }
 p.name{
-  font-weight: 500;
+  font-weight: 800;
   font-style: normal;
   font-size: 14px;
 }
