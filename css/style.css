@@ -41,6 +41,8 @@ body{
 }
 p.date{
   margin: 12px 0;
+  font-size: 14px;
+  line-height: 150%;
 }
 h1{
   font-optical-sizing: auto;
@@ -65,7 +67,8 @@ p.description{
   margin-bottom: 24px;
 }
 p.name{
-  border: 0px;
+  font-weight: 800;
+  font-style: normal;
 }
 .author{
   display: flex;
