@@ -22,9 +22,6 @@ body{
   border: solid 1px hsl(0, 0%, 7%);
   box-shadow: 8px 8px;
 }
-.galery{
-  border: 1px solid red;
-}
 #imagem{
   border-radius: 0.625em;
   margin: 0  0 24px 0;
