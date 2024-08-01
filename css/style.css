@@ -69,6 +69,7 @@ p.description{
 p.name{
   font-weight: 800;
   font-style: normal;
+  font-size: 14px;
 }
 .author{
   display: flex;
@@ -95,7 +96,7 @@ p.name{
   .date{
     font-size: 12px;
   }
-  .text{
+  .descripton{
     font-size: 14px;
   }
   p.learning{
