@@ -1,5 +1,5 @@
 html,body{
-  height: 100%;
+  height: 850px;
 }
 body{
   margin: 0;
@@ -69,6 +69,7 @@ p#author{
   display: flex;
   align-items: center;
   gap: 12px;
+  margin-bottom: 10px;
 }
 .footer img{
   width: 32px;
