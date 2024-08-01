@@ -1,52 +1,53 @@
-html,body{
-  height: 100%;
-}
-body{
+*{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  font-family: "Figtree", sans-serif;
+}
+body{
   background-color: hsl(47, 88%, 63%);
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
   flex-direction: column;
 }
 
-.container{
+.card{
   background: white;
   width: 24rem;
-  height: 33em;
+  height: 526px;
   padding: 24px;
-  box-sizing: border-box;
   border-radius: 1.250em;
   border: solid 1px hsl(0, 0%, 7%);
   box-shadow: 8px 8px;
 }
-.container:hover{
+.card:hover{
   box-shadow: 16px 16px;
 }
-#imagem{
+.image{
   border-radius: 0.625em;
   margin: 0  0 24px 0;
 }
-.tag{
+.learning{
   background-color: hsl(47, 88%, 63%);
-  font-family: "Figtree";
   font-weight: 800;
   font-style: normal;
   padding: 4px 12px 4px 12px;
   border-radius: 0.2em;
-  display: inline-block;
+  width: max-content;
+}
+p.date{
+  margin: 12px 0;
 }
 h1{
-  font-family: "Figtree", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
   font-size: 24px;
   margin-top: 12px;
   margin-bottom: 12px;
-  margin: 0;
   line-height: 150%;
 }
 h1:hover{
@@ -54,66 +55,56 @@ h1:hover{
   cursor: pointer;
   caret-color: black;
 }
-p{
-  font-size: 0.8750em;
-  font-family: "Figtree";
+p.description{
+  font-size: 1em;
   font-weight: 500;
   font-style: normal;
   line-height: 150%;
+  color: hsl(0, 0%, 50%);
+  margin-bottom: 24px;
 }
-p#author{
+p.name{
   border: 0px;
 }
-#text{
-  font-size: 1em;
-  color: hsl(0, 0%, 50%);
-}
-.footer{
+.author{
   display: flex;
   align-items: center;
   gap: 12px;
   height: 32px;
+  font-weight: 800;
 }
-.footer img{
+.avatar{
   width: 32px;
   height: 32px;
-  
-}
-.footer p{
-  align-items: center;
-  font-weight: 800;
-  font-family: "Figtree";
-  line-height: 150%;
-}
-#date p{
-  line-height: 150%;
 }
 
+
+
 @media (max-width: 375px){
-  .container{
+  .card{
     width: 20.43rem;
     height: 31.31rem;
   }
-  #imagem{
+  .image{
     width: 100%;
   }
-  #date{
+  .date{
     font-size: 12px;
   }
-  #text{
+  .text{
     font-size: 14px;
   }
-  span{
+  p.learning{
     display: inline-block;
   }
   h1{
     font-size: 20px;
     font-weight: 800;
   }
-  .footer{
+  .author{
     margin-top: 24px;
   }
-  p#author{
+  p.name{
     font-size: 14px;
   }  
 }
