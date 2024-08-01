@@ -72,10 +72,12 @@ p#author{
   display: flex;
   align-items: center;
   gap: 12px;
+  height: 32px;
 }
 .footer img{
   width: 32px;
   height: 32px;
+  
 }
 .footer p{
   align-items: center;
