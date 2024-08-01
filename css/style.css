@@ -15,12 +15,15 @@ body{
 .container{
   background: white;
   width: 24rem;
-  height: 32.625rem;
+  height: 33em;
   padding: 24px;
   box-sizing: border-box;
   border-radius: 1.250em;
   border: solid 1px hsl(0, 0%, 7%);
   box-shadow: 8px 8px;
+}
+.galery{
+  border: 1px solid red;
 }
 #imagem{
   border-radius: 0.625em;
@@ -64,7 +67,6 @@ p#author{
 #text{
   font-size: 1em;
   color: hsl(0, 0%, 50%);
-
 }
 .footer{
   display: flex;
@@ -76,6 +78,7 @@ p#author{
   height: 32px;
 }
 .footer p{
+  align-items: center;
   font-weight: 800;
   font-family: "Figtree";
   line-height: 150%;
