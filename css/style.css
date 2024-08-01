@@ -22,6 +22,9 @@ body{
   border: solid 1px hsl(0, 0%, 7%);
   box-shadow: 8px 8px;
 }
+.container:hover{
+  box-shadow: 16px 16px;
+}
 #imagem{
   border-radius: 0.625em;
   margin: 0  0 24px 0;
@@ -69,7 +72,6 @@ p#author{
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 10px;
 }
 .footer img{
   width: 32px;
